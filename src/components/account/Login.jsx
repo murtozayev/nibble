@@ -6,7 +6,7 @@ import Button from "../elements/Button"
 
 const Login = () => {
     return (
-        <div className=" tablet:flex-col phone:flex-col phone:w-[100vw] tablet:w-[100vw] flex items-center justify-center ">
+        <div className=" phone:overflow-y-hidden tablet:flex-col phone:flex-col phone:w-[100vw] tablet:w-[100vw] flex items-center justify-center ">
             <div className=" phone:w-[100vw] phone:h-[30vh] flex tablet:h-[30vh] tablet:w-[100vw] laptop:w-[30%] laptop:h-[100vh] rounded-r-[20px] justify-center items-center w-[576px] h-[1024px] " id="image">
                 <img src={logo} alt="Logo" className=" phone:w-[20vh] laptop:w-[20vh] " />
             </div>
