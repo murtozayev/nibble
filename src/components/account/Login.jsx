@@ -1,5 +1,4 @@
 import logo from "../../assets/Light.png"
-import user from "../../assets/user.png"
 import message from "../../assets/message.png"
 import key from "../../assets/key.png"
 import Button from "../elements/Button"
