@@ -19,3 +19,9 @@
 ::-webkit-scrollbar {
   width: 0;
 }
+
+a.active {
+  background-color: #503E9D;
+  color: white;
+  transition: all 0.1s;
+}
