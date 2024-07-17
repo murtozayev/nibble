@@ -9,19 +9,19 @@
   box-sizing: border-box;
 }
 
-#image{
+#image {
   background-image: url(./assets/Image.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-::-webkit-scrollbar {
-  width: 0;
-}
-
 a.active {
   background-color: #503E9D;
   color: white;
   transition: all 0.1s;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
