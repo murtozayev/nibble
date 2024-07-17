@@ -11,7 +11,7 @@ import Chooseone from "../elements/Chooseone"
 
 const Leftmenu = () => {
     return (
-        <div className=" w-[304px] phone:w-[15vw] phone:items-center phone:rounded-[2vw] phone:h-[100vh] tablet:h-[100vh] tablet:w-[12vw] justify-between phone:py-[5vw] flex flex-col laptop:h-[100vh] bg-[#F7F7F7] rounded-r-[20px] p-[10px] py-[40px] ">
+        <div className=" w-[304px] phone:w-[15vw] phone:items-center phone:rounded-[2vw] phone:h-[90vh] tablet:h-[100vh] tablet:w-[12vw] justify-between phone:py-[5vw] flex flex-col laptop:h-[100vh] bg-[#F7F7F7] rounded-r-[20px] p-[10px] py-[40px] ">
             <div>
                 <img className=" phone:w-[10vw] tablet:w-[5vw] ml-[10px] laptop:ml-[0.2vw] laptop:w-[6vw] " src={logo} alt="Logo" />
                 <div className=" flex laptop:mt-[4vh] laptop:gap-[0.5vw] flex-col mt-[30px] gap-[10px] ">

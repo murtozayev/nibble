@@ -9,7 +9,7 @@ import Products from "../elements/Products"
 
 const Maindash = () => {
     return (
-        <div className=" phone:px-[2vw] phone:w-[80vw] phone:h-[85vh] px-[20px] tablet:h-[90vh] laptop:w-[53vw] laptop:h-[88.5vh] laptop:px-[1vw] overflow-auto ">
+        <div className=" phone:px-[2vw] phone:w-[80vw] phone:h-[78vh] px-[20px] tablet:h-[90vh] laptop:w-[53vw] laptop:h-[88.5vh] laptop:px-[1vw] overflow-auto ">
             <h1 className=" text-[24px] phone:text-[4vw] phone:mt-[2vw] laptop:text-[1.3vw] laptop:mt-[1vh] font-bold mt-[20px] ">Food Categories</h1>
             <div className=" tablet:w-[80vw] tablet:overflow-x-auto phone:overflow-x-auto ">
                 <div className=" flex laptop:mt-[3vh] tablet:w-[120vw] phone:w-[170vw] justify-between phone:mt-[3vw] mt-[30px] ">

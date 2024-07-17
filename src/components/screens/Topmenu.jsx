@@ -21,7 +21,7 @@ const Topmenu = () => {
 
             <button onClick={() => setIsShow(true)} className=" hidden phone:block w-[7vw] rounded-[1vw] fas text-white fa-bars text-[2.2vw] h-[7vw] bg-[#2222a2]  " />
 
-            <div className={` top-0 bg-white py-[5vw] ${isShow ? "translate-y-0" : "translate-y-[-100%]"} hidden transition-all phone:block p-[3vw] absolute w-[86%] left-[14vw] z-[100] h-[100vh] `}>
+            <div className={` top-0 bg-white py-[5vw] ${isShow ? "translate-y-0" : "translate-y-[-100%]"} hidden transition-all phone:block p-[3vw] absolute w-[86%] left-[14vw] z-[100] h-[90vh] `}>
                 <button onClick={() => setIsShow(false)} className=" w-[7vw] h-[7vw] bg-[#24249e] rounded-[1vw] fas fa-xmark text-[white] " />
 
                 <div className=" flex flex-col gap-[7vw] mt-[7vw] ">
@@ -134,7 +134,7 @@ const Topmenu = () => {
 
                 {/* For phone Search panel */}
 
-                <div className={` z-[100] hidden transition duration-500 phone:block ${search ? "scale-[1]" : "scale-0"} absolute p-[5vw] left-0 top-0 w-[100%] h-[100vh] bg-white `}>
+                <div className={` z-[100] hidden transition duration-500 phone:block ${search ? "scale-[1]" : "scale-0"} absolute p-[5vw] left-0 top-0 w-[100%] h-[90vh] bg-white `}>
                     <button type="button" onClick={() => setSearch(false)} className=" fas fa-arrow-left " />
                     <div className=" flex items-center ">
                         <input placeholder="Search foods" className=" px-[4vw] w-[100%] rounded-[2vw] mt-[2vw] font-semibold text-[3vw] outline-none h-[10vw] bg-[#F7F7F7] " type="text" />
