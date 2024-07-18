@@ -11,7 +11,7 @@ const Products = ({ image, title, price, star, rate }) => {
                     <img className=" w-[30px] laptop:w-[1.5vw] " src={star} alt="Star" />
                     <span className=" text-[20px] laptop:text-[2vh] font-bold ">{rate}</span>
                 </div>
-                <button className=" text-[25px] phone:text-[5vw] laptop:text[2.5vh] fa-regular fa-heart " />
+                <button className=" text-[25px] phone:text-[5vw] laptop:text-[1.5vw] fa-regular fa-heart " />
             </div>
         </div>
     )

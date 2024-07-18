@@ -46,7 +46,7 @@ const Maindash = () => {
 
             </div>
 
-            <h1 className=" text-[32px] phone:text-[5vw] phone:mt-[4vw] tablet:text-[] laptop:text-[1.5vw] laptop:mt-[2vh] font-bold mt-[30px] ">Foods</h1>
+            <h1 className=" text-[32px] phone:text-[5vw] phone:mt-[4vw] laptop:text-[1.5vw] laptop:mt-[2vh] font-bold mt-[30px] ">Foods</h1>
 
 
             <div className=" mt-[30px] phone:mt-[3vw] laptop:mt-[3vh] flex laptop:gap-[1vw] flex-wrap gap-[20px] laptop:h-[20vw] justify-around h-[410px] ">

@@ -2,6 +2,7 @@ import React from 'react'
 import Leftmenu from './components/screens/Leftmenu'
 import Topmenu from './components/screens/Topmenu'
 import Maindash from './components/screens/Maindash'
+import Explore from './components/screens/Explore'
 const App = () => {
 
   return (
@@ -10,7 +11,7 @@ const App = () => {
         <Leftmenu />
         <div className=' p-[10px] w-[1096px] '>
           <Topmenu />
-          <Maindash />
+          <Explore />
         </div>
       </div>
     </div>
